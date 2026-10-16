@@ -1,30 +1,19 @@
-1. Pengertian Bootstrap 
-Bootstrap adalah framework CSS open-source yang populer digunakan untuk mengembangkan website yang responsif dan menerapkan pendekatan mobile-first.
-Kegunaannya: Bootstrap mempercepat proses pembuatan website karena menyediakan komponen HTML, CSS, dan JavaScript siap pakai, seperti tombol, form, navbar, dan sistem grid. Selain itu, Bootstrap membantu menjaga konsistensi tampilan website di berbagai browser dan ukuran layar perangkat.
+1.Pengertian Bootstrap
 
-2. Memasang Bootstrap 
-Ada beberapa cara untuk menggunakan Bootstrap dalam sebuah project, yaitu:
-1.	CDN (Content Delivery Network): Menghubungkan file CSS dan JavaScript Bootstrap melalui URL yang disediakan sehingga tidak perlu mengunduh file secara manual.
-2.	Download File: Mengunduh file Bootstrap, kemudian menyimpannya di dalam folder project.
-3.	Package Manager: Memasang Bootstrap menggunakan package manager seperti npm atau Yarn, biasanya untuk project berbasis Node.js. 
-4.	Bundler: Mengintegrasikan Bootstrap ke dalam project menggunakan tools seperti Vite, Webpack, atau Parcel.
-   
-3. Grid dan Breakpoint 
-•	Grid Class: Sistem tata letak Bootstrap yang menggunakan 12 kolom untuk mengatur posisi dan ukuran elemen website. Class utama yang digunakan adalah container, row, dan col.
-•	Breakpoint: Batas ukuran lebar layar tertentu yang digunakan untuk menyesuaikan tata letak website agar responsif pada berbagai perangkat. Pada Bootstrap 5, breakpoint terdiri dari sm (≥576px), md (≥768px), lg (≥992px), xl (≥1200px), dan xxl (≥1400px).
-Contoh penggunaan: col-12 col-md-6 berarti elemen menggunakan lebar penuh pada layar kecil dan setengah lebar baris mulai dari ukuran layar medium.
+Bootstrap adalah framework CSS *open-source* yang populer digunakan untuk mengembangkan website yang responsif dan menerapkan pendekatan *mobile-first*. Bootstrap berguna untuk mempercepat proses pembuatan website karena menyediakan komponen HTML, CSS, dan JavaScript siap pakai, seperti tombol, form, navbar, dan sistem grid. Selain itu, Bootstrap membantu menjaga konsistensi tampilan website di berbagai browser dan ukuran layar perangkat.
 
-4. Class Bootstrap 
-Berikut beberapa contoh class Bootstrap beserta kegunaannya:
-1.	container: Membungkus konten dan mengatur lebar serta padding secara responsif.
-2.	btn btn-success: Membuat tombol dengan tampilan berwarna hijau.
-3.	row: Membuat baris untuk menampung kolom dalam sistem grid.
-4.	text-center: Mengatur teks agar rata tengah.
-5.	shadow: Memberikan efek bayangan pada elemen.
-6.	mt-3: Memberikan jarak margin pada bagian atas elemen sesuai skala spacing Bootstrap.
-   
-5. Gambar Responsif 
-Untuk membuat gambar responsif, gunakan class img-fluid pada elemen gambar (<img>). Class ini menerapkan properti CSS max-width: 100% dan height: auto, sehingga gambar dapat menyesuaikan lebar elemen induknya tanpa mengubah proporsi aslinya.
-Contoh penggunaan:
-<img src="gambar.jpg" class="img-fluid" alt="Contoh gambar">
-Dengan menggunakan class img-fluid, gambar dapat menyesuaikan ukuran layar perangkat dan tidak melebihi lebar elemen induknya
+2. Memasang Bootstrap
+
+Ada beberapa cara untuk menggunakan Bootstrap dalam sebuah project. Pertama, menggunakan CDN (*Content Delivery Network*), yaitu menghubungkan file CSS dan JavaScript Bootstrap melalui URL yang disediakan tanpa perlu mengunduh file secara manual. Kedua, mengunduh file Bootstrap dan menyimpannya di dalam folder project. Ketiga, menggunakan *package manager* seperti npm atau Yarn untuk memasang Bootstrap, biasanya pada project berbasis Node.js. Keempat, menggunakan *bundler* seperti Vite, Webpack, atau Parcel untuk mengintegrasikan Bootstrap ke dalam project.
+
+3. Grid dan Breakpoint
+
+Grid adalah sistem tata letak Bootstrap yang menggunakan 12 kolom untuk mengatur posisi dan ukuran elemen website. Class utama yang digunakan dalam sistem grid adalah `container`, `row`, dan `col`. Sementara itu, breakpoint merupakan batas ukuran lebar layar tertentu yang digunakan untuk menyesuaikan tata letak website agar responsif pada berbagai perangkat. Pada Bootstrap 5, breakpoint terdiri dari `sm` (≥576px), `md` (≥768px), `lg` (≥992px), `xl` (≥1200px), dan `xxl` (≥1400px). Contohnya, class `col-12 col-md-6` berarti elemen menggunakan lebar penuh pada layar kecil dan setengah lebar baris mulai dari ukuran layar medium.
+
+4. Class Bootstrap
+
+Bootstrap menyediakan berbagai class yang dapat digunakan untuk mengatur tampilan website. Class `container` berfungsi membungkus konten serta mengatur lebar dan padding secara responsif. Class `btn btn-success` digunakan untuk membuat tombol berwarna hijau, sedangkan class `row` digunakan untuk membuat baris yang menampung kolom dalam sistem grid. Class `text-center` berfungsi mengatur teks agar rata tengah, class `shadow` memberikan efek bayangan pada elemen, dan class `mt-3` memberikan jarak margin pada bagian atas elemen sesuai skala spacing Bootstrap.
+
+5. Gambar Responsif
+
+Untuk membuat gambar responsif, gunakan class `img-fluid` pada elemen gambar (`<img>`). Class ini menerapkan properti CSS `max-width: 100%` dan `height: auto`, sehingga gambar dapat menyesuaikan lebar elemen induknya tanpa mengubah proporsi aslinya. Contoh penggunaannya adalah `<img src="gambar.jpg" class="img-fluid" alt="Contoh gambar">`. Dengan menggunakan class `img-fluid`, gambar dapat menyesuaikan ukuran layar perangkat dan tidak melebihi lebar elemen induknya.
